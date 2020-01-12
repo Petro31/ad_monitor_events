@@ -40,7 +40,7 @@ key | optional | type | default | description
 -- | -- | -- | -- | --
 `module` | False | string | events | The module name of the app.
 `class` | False | string | IlluminateDoor | The name of the Class.
-`level` | True | `'INFO'` &#124; `'DEBUG'` | `'DEBUG'` | Switches log level.
+`level` | True | `'INFO'` &#124; `'DEBUG'` | `'INFO'` | Switches log level.
 `events` | False | list | | A list of event names or event objects.
 
 #### Event Object Configuration
