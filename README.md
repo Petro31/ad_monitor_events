@@ -46,5 +46,5 @@ key | optional | type | default | description
 #### Event Object Configuration
 key | optional | type | default | description
 -- | -- | -- | -- | --
-`event` | False | string | | The entity_id of the switch or light.
+`event` | False | string | | The event name.
 `data` | True | map | | Basic event data.  Currently does not accept sublists or sub dictionaries.
